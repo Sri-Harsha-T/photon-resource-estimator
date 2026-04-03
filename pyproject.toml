@@ -1,0 +1,11 @@
+[project]
+name = "photonic-resource-estimator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pennylane>=0.44.1",
+    "rich>=14.3.3",
+    "setuptools>=82.0.1",
+]
