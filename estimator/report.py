@@ -9,7 +9,10 @@ def print_report(backend: str, gate_counts: dict, resources: dict):
     print(f"    Squeezed sources       : {resources['squeezed_sources']}")
     print(f"    Beamsplitters          : {resources['beamsplitters']}")
     print(f"    Detectors              : {resources['detectors']}")
+    print(f"    Squeezing per mode     : {resources['squeezing_per_mode_db']} dB")
     print(f"    Squeezing budget       : {resources['squeezing_budget_db']} dB total")
     print(f"    Loss overhead factor   : {resources['loss_overhead_factor']:.2f}x")
+    for w in resources.get("hardware_warnings", []):
+        print(f"    {w}")
     print(f"{'='*60}\n")
 
