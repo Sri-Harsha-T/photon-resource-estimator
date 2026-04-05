@@ -3,6 +3,7 @@ from estimator.circuit_analyzer import CircuitAnalyzer
 from estimator.resource_engine import ResourceEstimator
 from estimator.backends import BACKENDS
 from estimator.report import print_report
+# import strawberryfields as sf
 
 def main():
     print("Hello from photonic-resource-estimator!")
