@@ -1,0 +1,3 @@
+backend,squeezed_sources,beamsplitters,detectors,total_optical_modes,ancilla_modes,circuit_depth,squeezing_budget_db,squeezing_per_mode_db,loss_overhead_factor,hardware_warnings
+gbs,9,0,11,9,2,4,47.26982700576889,6.752832429395555,1.2,
+cluster_state,13,0,14,11,4,4,47.26982700576889,6.752832429395555,1.2,
